@@ -273,6 +273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Launch Pad (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6526636050749654618, guid: abcca2ba2f90f644094429bd9003745b, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: abcca2ba2f90f644094429bd9003745b, type: 3}
@@ -529,12 +533,16 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4681866569549019873, guid: e11e83296439bc14fb38e64073f79a9b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681866569549019873, guid: e11e83296439bc14fb38e64073f79a9b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4681866569549019873, guid: e11e83296439bc14fb38e64073f79a9b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.7
+      value: 5.58
       objectReference: {fileID: 0}
     - target: {fileID: 4681866569549019873, guid: e11e83296439bc14fb38e64073f79a9b, type: 3}
       propertyPath: m_LocalPosition.z
