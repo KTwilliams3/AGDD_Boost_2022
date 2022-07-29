@@ -225,6 +225,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2455209289313298826, guid: abcca2ba2f90f644094429bd9003745b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c288d1576f4fd84382e75aaee7f517d, type: 2}
     - target: {fileID: 3985465418717749973, guid: abcca2ba2f90f644094429bd9003745b, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -271,7 +275,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6526636050749654618, guid: abcca2ba2f90f644094429bd9003745b, type: 3}
       propertyPath: m_Name
-      value: Launch Pad (1)
+      value: Landing Pad
       objectReference: {fileID: 0}
     - target: {fileID: 6526636050749654618, guid: abcca2ba2f90f644094429bd9003745b, type: 3}
       propertyPath: m_TagString
@@ -534,7 +538,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4681866569549019873, guid: e11e83296439bc14fb38e64073f79a9b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 11.584999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681866569549019873, guid: e11e83296439bc14fb38e64073f79a9b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.7724
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681866569549019873, guid: e11e83296439bc14fb38e64073f79a9b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1658
       objectReference: {fileID: 0}
     - target: {fileID: 4681866569549019873, guid: e11e83296439bc14fb38e64073f79a9b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -542,11 +554,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4681866569549019873, guid: e11e83296439bc14fb38e64073f79a9b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.58
+      value: 2.85
       objectReference: {fileID: 0}
     - target: {fileID: 4681866569549019873, guid: e11e83296439bc14fb38e64073f79a9b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 4681866569549019873, guid: e11e83296439bc14fb38e64073f79a9b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -576,6 +588,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4681866569549019875, guid: e11e83296439bc14fb38e64073f79a9b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c3ccf1284e27a0d46bddd1369d4ab436, type: 2}
     - target: {fileID: 4681866569549019877, guid: e11e83296439bc14fb38e64073f79a9b, type: 3}
       propertyPath: m_Name
       value: Obstacle
@@ -591,6 +607,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 41545329116920389, guid: 35ca5bc5e78cfd64b8523618ec619037, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c2c203e91dbe5764c88d29ec569e49c0, type: 2}
     - target: {fileID: 4894089731079350101, guid: 35ca5bc5e78cfd64b8523618ec619037, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0

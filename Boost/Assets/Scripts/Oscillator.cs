@@ -5,9 +5,9 @@ using UnityEngine;
 public class Oscillator : MonoBehaviour
 {
     [SerializeField] Vector3 movementVector = Vector3.zero;
-    [SerializeField][Range(0, 1)] float movementFactor = 0;
     [SerializeField] float period = 2f;
 
+    float movementFactor = 0;
     Vector3 startingPosition = Vector3.zero;
 
     // Start is called before the first frame update
